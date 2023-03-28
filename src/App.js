@@ -7,14 +7,16 @@ import Joincommunity from './components/Joincommunity';
 import Navbar from './Navbar';
 
 
+
 function App() {
   return (
     <>
       <Navbar />
       <Homesection />
-      <Governance/>
       <Infosection/>
+      <Governance/>
       <Joincommunity/>
+      {/* <Roadmap /> */}
       <Bestsellersection/>
     </>
   );

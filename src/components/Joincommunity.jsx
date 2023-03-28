@@ -6,10 +6,10 @@ export default function Joincommunity() {
         <div className='w-full bg-white'>
             <div className='bg-gray-100 md:m-20 m-5 p-10'>
                 <div className='text-center'>
-                    <h1 className=' text-2xl font-bold'>Lorem ipsum dolor sit amet consectetur.</h1>
-                    <h3 className=' text-xl font-medium'>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+                    <h1 className=' text-2xl font-bold'>Join the community</h1>
+               
                     <p className=' text-lg font-normal'>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, expedita fugiat voluptates dolorum adipisci quia.
+                    Learn more about GEAR, chat with the team, others in the community, and have your say in shaping the future of decentralized finance.
                     </p>
                 </div>
                 <div className='flex flex-row flex-wrap sm:justify-between justify-center p-10'>

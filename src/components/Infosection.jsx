@@ -5,8 +5,8 @@ export default function Infosection() {
         <>
             <section className="bg-white w-full mb-20">
                 <div className='m-10 bg-gray-200 border-2 border-black p-10 h-1/4'>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi non, eligendi vitae assumenda rem, adipisci nesciunt, harum est dicta illo iure possimus! Nemo, et alias. Facere obcaecati maxime beatae molestiae!</p>
-                    <p>Loreuos doloremque fugit, in ex magnam pariatur quae cupiditate impedit hic illo rem ipsa quisquam dolore, exercitationem inventore veniam vitae!</p>
+                    <p>We are on a mission to boost the NFT Ecosystem by increasing the buying potential of users</p>
+                    <p></p>
                 </div>
                 <div className='flex md:flex-row flex-col p-10 md:h-96'>
                     <div className='md:w-1/2 w-full bg-gray-200  border-2 border-black md:h-auto h-96'>
