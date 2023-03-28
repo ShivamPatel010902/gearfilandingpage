@@ -4,6 +4,8 @@ import Governance from './components/Governance';
 import Homesection from './components/Homesection';
 import Infosection from './components/Infosection';
 import Joincommunity from './components/Joincommunity';
+import Moreinfosection from './components/Moreinfosection';
+import Roadmap from './components/Roadmap';
 import Navbar from './Navbar';
 
 
@@ -12,10 +14,12 @@ function App() {
     <>
       <Navbar />
       <Homesection />
-      <Governance/>
       <Infosection/>
+      <Governance/>
+     <Moreinfosection/>
       <Joincommunity/>
-      <Bestsellersection/>
+      <Roadmap/>
+      {/*<Bestsellersection/>*/}
     </>
   );
 }

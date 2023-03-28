@@ -4,7 +4,37 @@ export default function
     () {
     return (
         <>
-            <section className="bg-white w-full">
+            <div className="waveWrapper waveAnimation -z-10">
+                <div className="waveWrapperInner bgTop">
+                    <div
+                        className="wave waveTop"
+                        style={{
+                            backgroundImage:
+                                'url("http://front-end-noobs.com/jecko/img/wave-top.png")'
+                        }}
+                    />
+                </div>
+                <div className="waveWrapperInner bgMiddle">
+                    <div
+                        className="wave waveMiddle"
+                        style={{
+                            backgroundImage:
+                                'url("http://front-end-noobs.com/jecko/img/wave-mid.png")'
+                        }}
+                    />
+                </div>
+                <div className="waveWrapperInner bgBottom">
+                    <div
+                        className="wave waveBottom"
+                        style={{
+                            backgroundImage:
+                                'url("http://front-end-noobs.com/jecko/img/wave-bot.png")'
+                        }}
+                    />
+                </div>
+            </div>
+
+            <section className="w-full">
                 <div className="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28 mb-20">
                     <div className="xl:pt-24 xl:pb-24 pt-20 pb-20 place-self-center items-center lg:col-span-4">
                         <h1 className="max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white">
@@ -48,7 +78,7 @@ export default function
                     <div className="hidden lg:col-span-8 lg:flex justify-end">
                         <div className='xl:bg-gray-200 lg:flex flex-col justify-center items-center w-4/6 xl:rounded-full xl:border-2 xl:border-black'>
                             <div className='w-96 h-4/6 bg-gray-100 mt-10 border-2 border-black'>
-
+                                <img src="" className='h-96 w-96' alt="" />
                             </div>
                             <div className='w-96 h-1/6 bg-gray-100 mt-3 border-2 border-black'>
 
