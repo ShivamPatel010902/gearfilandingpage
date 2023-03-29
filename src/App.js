@@ -1,5 +1,6 @@
 import './App.css';
 import Bestsellersection from './components/Bestsellersection';
+import Footer from './components/Footer';
 import Governance from './components/Governance';
 import Homesection from './components/Homesection';
 import Infosection from './components/Infosection';
@@ -19,6 +20,7 @@ function App() {
      <Moreinfosection/>
       <Joincommunity/>
       <Roadmap/>
+      <Footer/>
       {/*<Bestsellersection/>*/}
     </>
   );
