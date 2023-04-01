@@ -1,69 +1,60 @@
-@keyframes move_wave {
-    0% {
-        transform: translateX(0) translateZ(0) scaleY(1)
-    }
-    50% {
-        transform: translateX(-25%) translateZ(0) scaleY(0.55)
-    }
-    100% {
-        transform: translateX(-50%) translateZ(0) scaleY(1)
-    }
+@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
+ .wrapper {
+	 text-align: center;
 }
-.waveWrapper {
-    overflow: hidden;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    margin: auto;
+ .wrapper span {
+	 -webkit-text-stroke-width: 1.25px;
+	 -webkit-text-stroke-color: #000;
+	 font-size: 100px;
+	 text-shadow: 0 0px #f3c623, 0 0px #f2aaaa;
+	 transform: translate(0, 100%) rotate(4deg);
+	 animation: jump 2s ease-in-out infinite;
+	 display: inline-block;
+	 font-family: "Titan One", cursive;
+	 color: #fff;
 }
-.waveWrapperInner {
-    position: absolute;
-    width: 100%;
-    overflow: hidden;
-    height: 100%;
-    bottom: -1px;
-    background-image: linear-gradient(to top, #86377b 20%, #27273c 80%);
+ .wrapper span:nth-child(1) {
+	 animation-delay: 120ms;
 }
-.bgTop {
-    z-index: 15;
-    opacity: 0.5;
+ .wrapper span:nth-child(2) {
+	 animation-delay: 240ms;
 }
-.bgMiddle {
-    z-index: 10;
-    opacity: 0.75;
+ .wrapper span:nth-child(3) {
+	 animation-delay: 360ms;
 }
-.bgBottom {
-    z-index: 5;
+ .wrapper span:nth-child(4) {
+	 animation-delay: 480ms;
 }
-.wave {
-    position: absolute;
-    left: 0;
-    width: 200%;
-    height: 100%;
-    background-repeat: repeat no-repeat;
-    background-position: 0 bottom;
-    transform-origin: center bottom;
+ .wrapper span:nth-child(5) {
+	 animation-delay: 600ms;
 }
-.waveTop {
-    background-size: 50% 100px;
+ .wrapper span:nth-child(6) {
+	 animation-delay: 720ms;
 }
-.waveAnimation .waveTop {
-  animation: move-wave 3s;
-   -webkit-animation: move-wave 3s;
-   -webkit-animation-delay: 1s;
-   animation-delay: 1s;
+ .wrapper span:nth-child(7) {
+	 animation-delay: 840ms;
 }
-.waveMiddle {
-    background-size: 50% 120px;
+ @keyframes jump {
+	 33% {
+		 text-shadow: 0 60px #f37121, 0 150px #f2aaaa;
+	}
+	 50% {
+		 transform: translate(0, 0) rotate(-4deg);
+		 text-shadow: 0 0px #8fc0a9, 0 0px #84a9ac;
+	}
+	 66.67% {
+		 text-shadow: 0 -60px #d54062, 0 -150px #8fc0a9;
+	}
 }
-.waveAnimation .waveMiddle {
-    animation: move_wave 10s linear infinite;
+
+ @media screen and (max-height: 200px) {
+	 .wrapper {
+		 transform: scale(0.3, 0.3);
+	}
 }
-.waveBottom {
-    background-size: 50% 100px;
+ @media screen and (max-width: 576px) {
+	 .wrapper span {
+		 font-size: 50px;
+	}
 }
-.waveAnimation .waveBottom {
-    animation: move_wave 15s linear infinite;
-}
+ 

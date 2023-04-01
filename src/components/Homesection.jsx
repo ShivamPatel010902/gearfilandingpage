@@ -3,37 +3,8 @@ import React from 'react'
 export default function
     () {
     return (
-        <>
-            <div className="waveWrapper waveAnimation -z-10">
-                <div className="waveWrapperInner bgTop">
-                    <div
-                        className="wave waveTop"
-                        style={{
-                            backgroundImage:
-                                'url("http://front-end-noobs.com/jecko/img/wave-top.png")'
-                        }}
-                    />
-                </div>
-                <div className="waveWrapperInner bgMiddle">
-                    <div
-                        className="wave waveMiddle"
-                        style={{
-                            backgroundImage:
-                                'url("http://front-end-noobs.com/jecko/img/wave-mid.png")'
-                        }}
-                    />
-                </div>
-                <div className="waveWrapperInner bgBottom">
-                    <div
-                        className="wave waveBottom"
-                        style={{
-                            backgroundImage:
-                                'url("http://front-end-noobs.com/jecko/img/wave-bot.png")'
-                        }}
-                    />
-                </div>
-            </div>
 
+        <>
             <section className="w-full">
                 <div className="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28 mb-20">
                     <div className="xl:pt-24 xl:pb-24 pt-20 pb-20 place-self-center items-center lg:col-span-4">
@@ -77,7 +48,14 @@ export default function
                             </a>
                         </div>
                     </div>
-                    
+                    <div className="place-self-center items-center lg:col-span-6 lg:block hidden">
+                        <div className="wrapper">
+                            <span>G</span>
+                            <span>E</span>
+                            <span>A</span>
+                            <span>R</span>
+                        </div>
+                    </div>
                 </div>
             </section>
 
