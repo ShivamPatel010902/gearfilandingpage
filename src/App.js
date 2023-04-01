@@ -16,6 +16,7 @@ function App() {
   return (
     <>
       <Navbar/>
+    
       <Homesection />
       <Infosection/>
       <Governance/>

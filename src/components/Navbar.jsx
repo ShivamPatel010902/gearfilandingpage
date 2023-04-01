@@ -35,13 +35,7 @@ export default function Navbar() {
                             href="#"
                             className="ml-3 text-black font-medium text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 border-2 border-black "
                         >
-                            Download
-                        </a>
-                        <a
-                            href="#"
-                            className="ml-3 text-black font-medium text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 border-2 border-black "
-                        >
-                            Go
+                            Open App
                         </a>
                     </div>
                 </div>
