@@ -31,7 +31,7 @@ export default function Roadmap() {
     return (
         <>
             <div className="roadmap">
-                <h2>Roadmap</h2>
+                <h2 className='.text-4xl .font-extrabold' style={{fontFamily : "monoton"}}>Roadmap</h2>
                 <div class="initiativescontainer">
                     {Initiatives.map((initiative, index) => {
                         return (
