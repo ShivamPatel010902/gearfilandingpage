@@ -4,7 +4,7 @@ export default function Moreinfosection() {
   return (
     <>
       <div
-        className=" md:w-200 m-5 rounded-2xl bg-gradient-to-r from-green-100 to-purple-200"
+        className=" md:w-200 m-5 rounded-2xl "
         style={{ display: "flex", flexDirection: "column" }}
       >
         <div className="flex flex-row justify-center mt-5 mb-5">

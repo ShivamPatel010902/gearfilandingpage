@@ -16,16 +16,19 @@ import Roadmap from './components/Roadmap';
 function App() {
   return (
     <>
-      <Navbar/>
+    <div className='bgcolor'>
+    <Navbar/>
     
-      <Homesection />
-      <Infosection/>
-      <Governance/>
-     <Moreinfosection/>
-      <Joincommunity/>
-      <Roadmap/>
-      <Footer/>
-      {/*<Bestsellersection/>*/}
+    <Homesection />
+   <Infosection/>
+    <Governance/>
+   <Moreinfosection/>
+    <Joincommunity/>
+    <Roadmap/>
+    <Footer/>
+    {/*<Bestsellersection/>*/}
+
+    </div>
     </>
   );
 }

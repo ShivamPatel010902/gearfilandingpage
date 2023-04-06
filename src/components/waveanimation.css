@@ -15,19 +15,20 @@
     left: 0;
     right: 0;
     bottom: 0;
-    top: 0;
+    top: 0px;
     margin: auto;
 }
 .waveWrapperInner {
     position: absolute;
     width: 100%;
+    top: 0px;
     overflow: hidden;
-    height: 100%;
+    height: 600px;
     bottom: -1px;
-    background-image: linear-gradient(to top, #ddaeff 20%, #CAF1DE 80%);
+    
 }
 .bgTop {
-    z-index: 15;
+   
     opacity: 0.5;
 }
 .bgMiddle {

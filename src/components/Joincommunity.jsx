@@ -4,7 +4,7 @@ import { FaDiscord, FaGithub, FaLinkedin, FaTwitter, FaInstagram } from "react-i
 export default function Joincommunity() {
     return (
         <div className='w-full bg-white'>
-            <div className='bg-gray-100 md:m-20 m-5 p-10'>
+            <div className=' md:m-20 m-5 p-10'>
                 <div className='text-center'>
                     <h1 className=' text-2xl font-bold'>Join the community</h1>
                

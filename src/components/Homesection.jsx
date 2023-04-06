@@ -4,9 +4,10 @@ import WaveAnimation from "./WaveAnimation";
 export default function () {
   return (
     <>
-      <WaveAnimation />
-      <section className="">
-        <div className="grid px-4 pt-20 pb-8 mx-auto lg:gap-12 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28 mb-5 ml-20 ">
+
+      <section>
+        {/*<WaveAnimation />*/}
+        <div className="grid px-4 pt-20 pb-8 mx-auto lg:gap-12 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28 mb-5 ml-20">
           <div
             className="xl:pt-10 xl:pb-10 pt-20 pb-20  lg:col-span-12"
             style={{
@@ -44,7 +45,7 @@ export default function () {
             <div className="space-y-4 sm:flex sm:space-y-0 space-x-4">
               <a
                 href="#"
-                className="inline-flex items-center px-3 py-2 text-lg font-medium text-center text-black bg-gradient-to-r from-green-100 to-purple-200 rounded-lg border-2 border-black"
+                className="inline-flex items-center px-3 py-2 text-lg font-medium text-center text-black border-2 border-black" style={{backgroundColor : "#7BAE7F"}}
               >
                 Discord
               </a>
